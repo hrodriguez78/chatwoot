@@ -1,5 +1,4 @@
 version: '3'
-
 services:
   base: &base
     build:
@@ -92,7 +91,7 @@ services:
     environment:
       - POSTGRES_DB=chatwoot
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=
+      - POSTGRES_PASSWORD=PQowie6574
 
   redis:
     image: redis:alpine
